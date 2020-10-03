@@ -9,10 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid x:ConnectionId='2' x:Name="LayoutGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:ConnectionId='3' x:Name="ClickMeButton" Content="Click Me" Height="51" Margin="200,80,0,0" VerticalAlignment="Top" Width="200"                             Background="red"/>
+        <Button x:ConnectionId='3' x:Name="ClickMeButton" Content="Click Me" Height="82" Margin="200,49,0,0" VerticalAlignment="Top" Width="200"                             Background="#FFFF6800" BorderBrush="#FF1BEE1B" Foreground="Black" FocusVisualPrimaryBrush="#FF11BBEE" FontSize="23" FontStyle="Italic"/>
         <Button>Hello World</Button>
 
-        <TextBlock x:ConnectionId='4' x:Name="MessTextBlock" HorizontalAlignment="Left" Height="33" Margin="200,180,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBlock x:ConnectionId='4' x:Name="MessTextBlock" HorizontalAlignment="Left" Height="49" Margin="200,160,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="426" FocusVisualPrimaryBrush="#FF1DF0F0" Foreground="#FF3EF08F" FontSize="30" FontWeight="Bold"/>
 
     </Grid>
 </Page>

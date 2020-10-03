@@ -39,7 +39,7 @@ namespace Lab02
             myButton.Content = "Click Me";
             myButton.Width = 200;
             myButton.Height = 100;
-            myButton.Margin = new Thickness(80, 200, 0, 0);
+            myButton.Margin = new Thickness(200, 220, 0, 0);
             myButton.HorizontalAlignment = Windows.UI.Xaml.HorizontalAlignment.Left;
             myButton.VerticalAlignment = Windows.UI.Xaml.VerticalAlignment.Top;
 
